@@ -7,11 +7,13 @@ N = int(input())
 array = []
 
 for _ in range(N):
-    input_data = input().split()
-    array.append((int(input_data[0]),int(input_data[1])))
-
-
-array = sorted(array, key=lambda x:(x[0], x[1]))
+    x, y = map(int, input().split())
+    array.append((x,y))
+array = sorted(array) # 키를 이용하지 않아도 알아서 key=lambda x:(x[0], x[1])
 
 for i in array:
     print(i[0],i[1])
+
+
+
+

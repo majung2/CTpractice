@@ -11,7 +11,9 @@ for _ in range(N):
     age=int(age)
     result.append((age,name))
 
+print(result)
 result = sorted(result, key=lambda person: person[0])
+print(result)
 
 for i in result:
     print(i[0],i[1])
