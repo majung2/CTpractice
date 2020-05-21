@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - Boj_1542",
+            "request": "launch",
+            "mainClass": "boj.Boj_1542",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "boj.Silver5.test",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "boj.test",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
