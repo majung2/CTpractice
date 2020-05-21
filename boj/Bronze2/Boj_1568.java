@@ -2,11 +2,11 @@
 // 하
 // 탐색
 // 10 / 20분
-package boj;
+package boj.Bronze2;
 
 import java.util.Scanner;
 
-public class Boj_1569 {
+public class Boj_1568 {
     public static void main(String[] args) {
         Scanner scin = new Scanner(System.in);
         int N = scin.nextInt();

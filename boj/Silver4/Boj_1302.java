@@ -3,7 +3,7 @@
 // 탐색
 // 40분 / 20분
 
-package boj;
+package boj.Silver4;
 
 import java.util.Collections;
 import java.util.HashMap;

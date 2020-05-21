@@ -4,7 +4,7 @@
 // X / 40분
 
 
-package boj;
+package boj.Silver2;
 
 import java.util.Arrays;
 import java.util.Scanner;

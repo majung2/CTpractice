@@ -3,11 +3,11 @@
 // 탐색
 // 25 / 20분 
 
-package boj;
+package boj.Silver4;
 
 import java.util.Scanner;
 
-public class Boj_1542 {
+public class Boj_1543 {
     public static void main(String[] args) {
         Scanner scin = new Scanner(System.in);
         String doc = scin.nextLine();

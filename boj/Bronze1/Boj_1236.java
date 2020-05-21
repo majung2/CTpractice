@@ -3,7 +3,7 @@
 // 탐색
 // 25 / 20분
 
-package boj;
+package boj.Bronze1;
 
 import java.util.Scanner;
 import java.util.stream.IntStream;

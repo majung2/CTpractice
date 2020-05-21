@@ -3,7 +3,7 @@
 // 탐색
 // 11 / 20분
 
-package boj;
+package boj.Bronze2;
 
 import java.util.Scanner;
 
