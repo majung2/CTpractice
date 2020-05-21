@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Boj_1939",
+            "request": "launch",
+            "mainClass": "boj.Boj_1939",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Boj_2110",
             "request": "launch",
             "mainClass": "boj.Boj_2110",
