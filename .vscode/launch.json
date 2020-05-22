@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - L2_01",
+            "request": "launch",
+            "mainClass": "programmers.L2_01",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Pro_lv2_01",
+            "request": "launch",
+            "mainClass": "java.Pro_lv2_01",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Boj_2250",
+            "request": "launch",
+            "mainClass": "boj.Boj_2250",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Boj_1991",
+            "request": "launch",
+            "mainClass": "boj.Silver1.Boj_1991",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Boj_1991",
             "request": "launch",
             "mainClass": "boj.Boj_1991",

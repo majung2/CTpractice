@@ -3,7 +3,7 @@
 // 트리, 구현
 // 인강도움 / 20분
 
-package boj;
+package boj.Silver1;
 
 import java.util.HashMap;
 import java.util.Map;
