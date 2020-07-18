@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - pg",
+            "request": "launch",
+            "mainClass": "programmers.pg",
+            "projectName": "CT_practice_8c875f22"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L2_01",
             "request": "launch",
             "mainClass": "programmers.L2_01",
