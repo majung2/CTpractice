@@ -25,7 +25,6 @@ for i in range(1,N):
         continue
     else: # 홀수개 연결되어 있으면 연속 선 아닌 것으로 추가!
         check = answer
-        print(answer)
         for h in range(1,H+1):
             if (h,i-1) in lines or (h,i) in lines or (h,i+1) in lines:
                 continue
