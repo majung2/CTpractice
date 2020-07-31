@@ -1,5 +1,6 @@
 # 안전영역
 # 런타임에러 > recursionlimit 필요
+# 통과
 
 from sys import *
 setrecursionlimit(10 ** 6)
