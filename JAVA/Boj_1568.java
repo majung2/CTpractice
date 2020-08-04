@@ -4,7 +4,7 @@
 // 10 / 20분
 // Bronze 2
 
-package boj.Bronze2;
+package JAVA;
 
 import java.util.Scanner;
 

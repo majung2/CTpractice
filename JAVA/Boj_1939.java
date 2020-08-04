@@ -3,7 +3,7 @@
 // 이진 탐색
 // X / 1시간
 
-package boj;
+package JAVA;
 
 import java.util.ArrayList;
 import java.util.*;

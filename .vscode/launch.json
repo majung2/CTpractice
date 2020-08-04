@@ -6,108 +6,38 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - pg",
+            "name": "CodeLens (Launch) - SW_7730",
             "request": "launch",
-            "mainClass": "programmers.pg",
+            "mainClass": "JAVA.SW_7730",
             "projectName": "CT_practice_8c875f22"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - L2_01",
+            "name": "CodeLens (Launch) - Hello",
             "request": "launch",
-            "mainClass": "programmers.L2_01",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Pro_lv2_01",
-            "request": "launch",
-            "mainClass": "java.Pro_lv2_01",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Boj_2250",
-            "request": "launch",
-            "mainClass": "boj.Boj_2250",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Boj_1991",
-            "request": "launch",
-            "mainClass": "boj.Silver1.Boj_1991",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Boj_1991",
-            "request": "launch",
-            "mainClass": "boj.Boj_1991",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Boj_1939",
-            "request": "launch",
-            "mainClass": "boj.Boj_1939",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Boj_2110",
-            "request": "launch",
-            "mainClass": "boj.Boj_2110",
+            "mainClass": "JAVA.Hello",
             "projectName": "CT_practice_8c875f22"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Boj_1236",
             "request": "launch",
-            "mainClass": "boj.Boj_1236",
+            "mainClass": "JAVA.Boj_1236",
             "projectName": "CT_practice_8c875f22"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Boj_1668",
+            "name": "CodeLens (Launch) - L2_01",
             "request": "launch",
-            "mainClass": "boj.Boj_1668",
+            "mainClass": "JAVA.L2_01",
             "projectName": "CT_practice_8c875f22"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Boj_1302",
+            "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "boj.Boj_1302",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Boj_1569",
-            "request": "launch",
-            "mainClass": "boj.Boj_1569",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Boj_1542",
-            "request": "launch",
-            "mainClass": "boj.Boj_1542",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - test",
-            "request": "launch",
-            "mainClass": "boj.Silver5.test",
-            "projectName": "CT_practice_8c875f22"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - test",
-            "request": "launch",
-            "mainClass": "boj.test",
-            "projectName": "CT_practice_8c875f22"
+            "mainClass": "${files}",
+            "jdkpath": "C:/Program Files/Java/jdk-14.0.2/bin"
         },
         {
             "name": "Python: Current File",

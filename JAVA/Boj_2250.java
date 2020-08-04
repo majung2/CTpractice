@@ -3,7 +3,7 @@
 // 트리, 구현
 // 50분
 
-package boj;
+package JAVA;
 
 import java.util.HashMap;
 import java.util.Map;

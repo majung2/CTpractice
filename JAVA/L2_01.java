@@ -1,5 +1,5 @@
 // 쇠막대기
-package programmers;
+package JAVA;
 
 public class L2_01 {
     public static void main(String[] args){

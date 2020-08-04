@@ -4,7 +4,7 @@
 // 인강도움 / 20분
 // Silver 1
 
-package boj.Silver1;
+package JAVA;
 
 import java.util.HashMap;
 import java.util.Map;

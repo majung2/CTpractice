@@ -4,7 +4,7 @@
 // X / 40분
 // Silver 2
 
-package boj.Silver2;
+package JAVA;
 
 import java.util.Arrays;
 import java.util.Scanner;

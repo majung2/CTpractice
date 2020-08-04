@@ -4,7 +4,7 @@
 // 25 / 20분 
 // Silver 4
 
-package boj.Silver4;
+package JAVA;
 
 import java.util.Scanner;
 

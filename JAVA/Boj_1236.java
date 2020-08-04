@@ -4,7 +4,7 @@
 // 25 / 20분
 // Bronze 1
 
-package boj.Bronze1;
+package JAVA;
 
 import java.util.Scanner;
 import java.util.stream.IntStream;
