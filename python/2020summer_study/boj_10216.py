@@ -1,35 +1,34 @@
 # Count Circle Groups
 
 from sys import *
-setrecursionlimit(10 ** 4)
+setrecursionlimit(10 ** 6)
 
 T = int(input()) # 테스트케이스
 dx, dy = [1,0,-1,0], [0,1,0,-1]
 
 def dfs1(x, y, r, n): # 표시하는 것
-    global armyBoard
+    global H, W, armyBoard
     if r < n:
         return
-    elif (x,y) not in armyBoard:
-        armyBoard[(x,y)] = 5001
     else:
+        armyBoard[x][y] = 1
         for i in range(4):
             xx, yy = x+dx[i], y+dy[i]
-            if xx < 0 or xx > 5000 or yy < 0 or yy > 5000:
+            if xx < 0 or xx >= H or yy < 0 or yy >= W:
                 continue
             else:
                 dfs1(xx, yy, r, n+1)
 
 def dfs2(x, y):
-    global armyBoard
-    if (x,y) not in armyBoard:
+    global H, W, armyBoard
+    if check[x][y]:
         return
-    armyBoard.pop((x,y))
+    check[x][y] = 1
     for i in range(4):
         xx, yy = x+dx[i], y+dy[i]
-        if xx < 0 or xx > 5000 or yy < 0 or yy > 5000:
+        if xx < 0 or xx >= H or yy < 0 or yy >= W:
             continue
-        elif (xx, yy) not in armyBoard: 
+        elif armyBoard[xx][yy] == 0: # 빈 부분이면
             continue
         else:
             dfs2(xx,yy)
@@ -38,20 +37,24 @@ def dfs2(x, y):
 for _ in range(T):
     N = int(input())
     army = []
-    answer = 0
+    answer, H, W = 0, 0, 0
 
     for i in range(N):
         x, y, R = map(int, input().split())
+        H, W = max(H, x), max(W, y)
         army.append([x,y,R])
 
-    armyBoard = {}
+    H += 1
+    W += 1
+    armyBoard = [[0 for _ in range(W)] for _ in range(H)] # 빈 부분 -1
+    check = [[0 for _ in range(W)] for _ in range(H)]
+
 
     for x,y,R in army:
-        armyBoard[(x,y)] = R
         dfs1(x, y, R, 0)
 
     for x,y,R in army:
-        if (x,y) in armyBoard: # 남아있음
+        if not check[x][y]:
             dfs2(x, y)
             answer += 1
 
