@@ -1,3 +1,4 @@
+# 20분
 def turnIntoMap(n, arr):
     Map = [[0 for _ in range(n)] for _ in range(n)]
     

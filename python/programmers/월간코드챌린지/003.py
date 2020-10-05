@@ -1,33 +1,22 @@
-import sys
-sys.setrecursionlimit(2000)
-
-result = set()
-def dfs(a,i,flag):
-    if len(a) == 1: 
-        result.add(a[0])
-        return
-    # 오른쪽
-    if i+1 < len(a):
-        dfs(a[:i] + [min(a[i],a[i+1])] + a[i+2:], i, flag)
-    # 왼쪽
-    if i-1 >= 0:
-        dfs(a[:i-1] + [min(a[i-1], a[i])] + a[i+1:], i-1, flag)
-        
-    if not flag: # 안 터트림
-        if i+1 < len(a):
-            dfs(a[:i] + [max(a[i],a[i+1])] + a[i+2:], i, True)
-        # 왼쪽
-        if i-1 >= 0:
-            dfs(a[:i-1] + [max(a[i-1], a[i])] + a[i+1:], i-1, True)
-            
-    
-    
 
 def solution(a):
-    idx = a.index(min(a))
-    dfs(a,idx,False)
+    result = set()
+
+    b = sorted(a)
+
+    for i in range(len(a)):
+        if b.index(a[i]) <2:
+            result.add(a[i])
+        elif i 
+        
+        
+
+
+
+
+
+
     answer = len(result)
-    print(result)
     
     return answer
 
