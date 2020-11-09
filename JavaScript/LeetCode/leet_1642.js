@@ -1,3 +1,5 @@
+// 시간초과
+
 /**
  * @param {number[]} heights
  * @param {number} bricks
